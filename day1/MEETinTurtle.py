@@ -4,7 +4,8 @@ import turtle
 # It is a note to the person reading the code.
 # The computer ignores it.
 # Write your code below here...
-
+turtle.color("blue")
+turtle.pensize(3)
 turtle.penup() #Pick up the pen so it doesn’t 
                #draw
 turtle.goto(-200,-100) #Move the turtle to the position (-200, -100)  on the screen
@@ -16,15 +17,44 @@ turtle.goto(-200,-100+200)
 turtle.goto(-200+50,-100) 
 turtle.goto(-200+100,-100+200)
 turtle.goto(-200+100,-100)
+#Draw the E:
 turtle.penup()
 turtle.goto(-200+150,100)
 turtle.pendown()
 turtle.forward(100)
-
-
-
-
-
+turtle.backward(100)
+turtle.right(90)
+turtle.forward(100)
+turtle.left(90)
+turtle.forward(100)
+turtle.backward(100)
+turtle.right(90)
+turtle.forward(100)
+turtle.left(90)
+turtle.forward(100)
+#Draw the second E:
+turtle.penup()
+turtle.forward(50)
+turtle.pendown()
+turtle.forward(100)
+turtle.backward(100)
+turtle.left(90)
+turtle.forward(100)
+turtle.right(90)
+turtle.forward(100)
+turtle.backward(100)
+turtle.left(90)
+turtle.forward(100)
+turtle.right(90)
+turtle.forward(100)
+#Draw the T:
+turtle.penup()
+turtle.forward(50)
+turtle.pendown()
+turtle.forward(100)
+turtle.backward(50)
+turtle.right(90)
+turtle.forward(200)
 # ...and end it before the next line.
 turtle.mainloop() 
 # turtle.mainloop() tells the turtle to do all
